@@ -180,8 +180,8 @@ int main() {
 
 
 
-    // Create three threads with different periods, task IDs and n values
-	th1 = pthread_create(&thread1, &th_attr1, &periodic_task, &task1_param);
+    // Create three threads with different periods, task IDs, and n values
+    th1 = pthread_create(&thread1, &th_attr1, &periodic_task, &task1_param);
     th2 = pthread_create(&thread2, &th_attr2, &periodic_task, &task2_param);
     th3 = pthread_create(&thread3, &th_attr3, &periodic_task, &task3_param);
 
